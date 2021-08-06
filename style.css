@@ -155,3 +155,38 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
+
+/* Home */
+
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em; /* independente do tamanho da fonte principal, o título será sempre o dobro, por causa do 2em */
+	margin: 0 0 1em; /* tamanho proporcional ao tamanho da fonte principal */
+	clear: left; /* para limpar o float */
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left; /* faz com que o elemento flutue, neste caso para a esquerda */
+	margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+	width: 60%;
+}

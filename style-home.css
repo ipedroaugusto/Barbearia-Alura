@@ -19,7 +19,7 @@
  	text-align: center;
  }
 
- #missao { /* para id(itens únicos) se usa # */
+ #missao { /* para id(itens únicos) se usa # (comportamento) */
     font-size: 20px;
  }
 
@@ -27,7 +27,7 @@
  	color:  #FF0000;
  }
 
- .itens { /* para class(itens que vão/podem ser repetidos) se usa . */
+ .itens { /* para class(itens que vão/podem ser repetidos) se usa . (estilo) */
     font-style: italic;
  }
 
